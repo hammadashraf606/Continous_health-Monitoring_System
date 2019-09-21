@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.medfyp.montior"
+    android:background="@drawable/admindash">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+        android:id="@+id/b1"
+            android:background="@drawable/bg_button"
+android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="getJSON"
+        android:text="Show Record"
+
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_below="@+id/call"
+        android:layout_marginTop="50dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_centerHorizontal="true"
+        android:text="Your Result Will be Display here!" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
